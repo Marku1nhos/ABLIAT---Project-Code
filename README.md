@@ -22,7 +22,7 @@ This tool serves as an integrated framework for mission design, allowing an engi
     * **Thermal Limit:** A hard constraint based on the **Stefan-Boltzmann law**. The optimiser *cannot* select a laser with an average power that produces more waste heat than the user-defined radiator (Area, Temp, Emissivity) can dissipate.
     * **Fluence Band:** A hard constraint that forces the optimiser to find solutions *within* a target fluence band (`F_min`, `F_max`) to ensure efficient ablation without plasma shielding.
 * **Debris Population Analysis:** Includes a "roll-up" tool (`integrate_distribution_energy`) to ingest a debris population (e.g., from an ESA MASTER CSV) and calculate the total mission energy, pulses, and cost required to de-orbit the whole catalog.
-* **Interactive UI & Visualization:** Built with Streamlit, the tool provides a full suite of interactive controls and Matplotlib plots to visualize the complex trade-offs between parameters.
+* **Interactive UI & Visualisation:** Built with Streamlit, the tool provides a full suite of interactive controls and Matplotlib plots to visualise the complex trade-offs between parameters.
 
 ## Technical Stack
 
@@ -31,7 +31,7 @@ This tool serves as an integrated framework for mission design, allowing an engi
 * **SciPy:** For the `differential_evolution` optimisation engine.
 * **Pandas:** For managing debris distribution data.
 * **NumPy:** For high-speed numerical calculations.
-* **Matplotlib:** For data visualization.
+* **Matplotlib:** For data visualisation.
 
 ## How to Run
 
