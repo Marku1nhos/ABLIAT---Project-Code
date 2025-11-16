@@ -36,6 +36,7 @@ This tool serves as an integrated framework for mission design, allowing an engi
 ## How to Run
 
 1.  **Clone the repository:**
+    (Replace `YourUsername` with your actual GitHub username)
     ```bash
     git clone [https://github.com/YourUsername/ABLIAT.git](https://github.com/YourUsername/ABLIAT.git)
     cd ABLIAT
