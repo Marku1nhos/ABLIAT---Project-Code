@@ -37,8 +37,8 @@ This tool serves as an integrated framework for mission design, allowing an engi
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/Marku1nhos/ABLIAT---Project-Code.git](https://github.com/Marku1nhos/ABLIAT---Project-Code.git)
-    cd ABLIAT
+    git clone https://github.com/Marku1nhos/ABLIAT---Project-Code.git
+    cd ABLIAT---Project-Code
     ```
 
 2.  **Create and activate a virtual environment:**
